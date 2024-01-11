@@ -11,5 +11,5 @@
   hosts: all
   tasks:
     - name: Use global variables
-      ansible.builtin.debugggggg:
+      ansible.builtin.debug:
         msg: "{{ var1 }} {{ var2 }}"
