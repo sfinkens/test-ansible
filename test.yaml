@@ -5,7 +5,7 @@
     - name: Set global variables
       ansible.builtin.set_fact:
         var1: Hello
-        var2: Turtles
+        var2: Stephan
 
 - name: First Play
   hosts: all
